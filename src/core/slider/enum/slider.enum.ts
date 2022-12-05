@@ -1,0 +1,3 @@
+export enum SLIDER_ERROR {
+  SLIDER_NOT_FOUND = 'SLIDER_NOT_FOUND',
+}

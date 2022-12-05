@@ -1,0 +1,3 @@
+export enum POST_ERROR {
+  POST_NOT_FOUND = 'POST_NOT_FOUND',
+}

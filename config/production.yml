@@ -1,0 +1,19 @@
+DATABASE:
+  # URL: postgres://postgres:laformadmin@localhost:5432/laforme
+  SSL: true
+  URL: postgres://postgres:laformadmin@46.36.222.230:5432/laforme-ru
+CACHE:
+  HOST: 'localhost'
+  PORT: 6379
+  PASSWORD: '41d08d8b84190ca075f7189558595b5848891508'
+  TTL: 6000000
+
+PAY_ANY_WAY:
+  MNT_ID: '72511945'
+  MNT_INTEGRITY_CODE: 'LF5492769db'
+  PAY_URL: 'https://payanyway.ru/assistant.htm?'
+
+CLIENT:
+  URL: 'https://www.laforme-patterns.com'
+  FAIL: 'https://www.laforme-patterns.com/not-paid'
+  SUCCESS: 'https://www.laforme-patterns.com/paid'

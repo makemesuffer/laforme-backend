@@ -1,0 +1,3 @@
+export enum COMMENT_ERROR {
+  COMMENT_NOT_FOUND = 'COMMENT_NOT_FOUND',
+}

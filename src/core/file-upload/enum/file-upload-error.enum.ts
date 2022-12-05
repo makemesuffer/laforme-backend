@@ -1,0 +1,3 @@
+export enum FILE_UPLOAD_ERROR {
+  FILE_NOT_FOUND = 'FILE_NOT_FOUND',
+}

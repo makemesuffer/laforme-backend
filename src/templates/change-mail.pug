@@ -1,0 +1,76 @@
+html
+  head
+    meta(charset="UTF-8")
+    style(type="text/css").
+      body {
+        margin: 0;
+        font-family: 'Golos Text', sans-serif; 
+      }
+      a {
+        text-decoration: none;
+      }
+      #background {
+        background-color: #F0F0F0; 
+        border-radius: 10px; 
+        padding: 30px; 
+        width: 460px;
+      }
+      #brandTitle {
+        color:#2f2a2c; 
+        font-size:24px; 
+        font-weight:600;
+        margin-left: 15px; 
+        vertical-align: 15px;
+      }
+      #title {
+        color:#2f2a2c; 
+        font-size:24px; 
+        font-weight:600;
+      }
+      #subTitle {
+        color:#2f2a2c; 
+        font-size: 20px; 
+        font-weight: 500;
+      }
+      #primary {
+        font-size: 16px;
+        color: #2f2a2c;
+      }
+      #secondary {
+        font-size: 14px; 
+        color: #5F5B5D;
+      }
+      #divider {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border-radius: 15px;
+        height: 3px;
+        width: 100%;
+        background-color: #f3f3f3;
+      }
+      #block {
+        margin-top: 20px;
+      }
+      #button {
+        text-align:center; 
+        margin: 15px 0; 
+        padding: 15px; 
+        border-radius: 10px;
+        background-color: #FF005A;
+        color: #fff
+      }
+
+  body
+    #background
+      a(href="https://www.laforme-patterns.com/")
+          img(height="50px", src="https://laforme.ru/wp-content/uploads/2020/06/LaForme_Patterns_-_Logo.png" )
+          span(id="brandTitle") La`forme Patterns
+      #block
+        #title Смена почты
+      #block
+        span(id="secondary") Код для смены почты на #{email}: 
+        span(id="primary") #{code}
+      #block 
+        #secondary Если это не вы смените пароль или напишите на La`forme Patterns
+        a(href="https://www.laforme-patterns.com/feedback") 
+          #button Написать

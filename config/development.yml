@@ -1,0 +1,19 @@
+DATABASE:
+  URL: postgres://postgres:Arol3094@localhost:5433/laform-ru-test
+  SSL: false
+  #URL: postgres://postgres:laformadmin@46.36.222.230:5432/laforme-prod
+CACHE:
+  HOST: 'ec2-44-194-122-143.compute-1.amazonaws.com'
+  PORT: 27889
+  PASSWORD: 'pdeb811685305cf8c1bb28d6541d08d8b84190ca075f7189558595b5848891508'
+  TTL: 6000000
+
+PAY_ANY_WAY:
+  MNT_ID: 'NULL'
+  MNT_INTEGRITY_CODE: 'NULL'
+  PAY_URL: 'http://localhost:4000/payment/redirect?'
+
+CLIENT:
+  URL: 'http://localhost:3000'
+  FAIL: 'http://localhost:3000/not-paid'
+  SUCCESS: 'http://localhost:3000/paid'

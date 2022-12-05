@@ -1,0 +1,3 @@
+export enum PRODUCT_OPTION {
+  NOT_FOUND = 'OPTION_NOT_FOUND',
+}

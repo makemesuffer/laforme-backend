@@ -1,0 +1,47 @@
+API:
+  PORT: 4000
+
+DATABASE:
+  TYPE: 'postgres'
+  SYNCHRONIZE: true
+  HEROKU: postgres://wretaddrpabqpt:9767f1ca9d0612c453127dfbe9a72723ffb7019d520429a17c8aa5340992f582@ec2-54-220-35-19.eu-west-1.compute.amazonaws.com:5432/d1dj9cppmmrmhi
+
+JWT:
+  EXPIRES_IN: '99999h'
+  SECRET: 'FKdksk12l3ldlsfdlLlsdll123l05kgjgk04jdkgn6kk2d0fkgsdk32ldovyjkxg'
+
+AWS:
+  SECRET_ACCESS_KEY: '24Ev6ozqxt5riFzlnZmZEyWjQ2lh9jRyeLwMixWr'
+  ACCESS_KEY_ID: 'AKIAY5PKV7HJOECSKA6G'
+  REGION: 'us-east-2'
+  BUCKET_NAME: 'laforme'
+  ACL: 'public-read'
+
+MAIL:
+  EMAIL: 'laformecompany@gmail.com'
+  PASSWORD: 'laformecompany12'
+  HOST: 'smtp.gmail.com'
+
+FACEBOOK:
+  CLIENT_ID: '641551410292127'
+  CLIENT_SECRET: 'e8d1eea418ed3b2c1907d500e11679dc'
+  CALLBACK_URL: 'https://api.laforme-patterns.com/auth/facebook/redirect'
+
+GOOGLE:
+  CLIENT_ID: '429043702220-cckjemprc0a0bs06vsdfvo6b5mk0rcke.apps.googleusercontent.com'
+  CLIENT_SECRET: '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'
+  CALLBACK_URL: 'https://api.laforme-patterns.com/auth/google/redirect'
+
+APPLE:
+  CLIENT_ID: 'laform-api.herokuapp'
+  KEY_ID: 'NWKUX58DQR'
+  TEAM_ID: '59862PVTZ2'
+  CALLBACK_URL: 'https://api.laforme-patterns.com/auth/apple/redirect'
+
+DADATA:
+  TOKEN: 'Token 47277a98629b84336b47c3b23b49f7d67bce9f77'
+
+СDEK:
+  GRANT_TYPE: 'client_credentials'
+  CLIENT_ID: 'HgRJCBnBLVdkCTmyeDnY6GNFrHHE8Drd'
+  CLIENT_SECRET: 'E3JultNk8fSVAf6Y2sIi9IU3ftqYIFsd'
